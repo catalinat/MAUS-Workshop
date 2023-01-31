@@ -1,0 +1,157 @@
+{
+  "name": "DemoDrehu",
+  "UUID": "af22f576-a0af-11ed-ac71-cf6ebeeeda9f",
+  "mediafileExtension": "wav",
+  "ssffTrackDefinitions": [
+    {
+      "name": "FORMANTS",
+      "columnName": "fm",
+      "fileExtension": "fms"
+    },
+    {
+      "name": "formants",
+      "columnName": "fm",
+      "fileExtension": "fms"
+    }
+  ],
+  "levelDefinitions": [
+    {
+      "name": "bundle",
+      "type": "ITEM",
+      "attributeDefinitions": [
+        {
+          "name": "bundle",
+          "type": "STRING"
+        },
+        {
+          "name": "source",
+          "type": "STRING"
+        },
+        {
+          "name": "SAM",
+          "type": "STRING"
+        },
+        {
+          "name": "MAO",
+          "type": "STRING"
+        }
+      ]
+    },
+    {
+      "name": "ORT",
+      "type": "ITEM",
+      "attributeDefinitions": [
+        {
+          "name": "ORT",
+          "type": "STRING"
+        },
+        {
+          "name": "KAN",
+          "type": "STRING"
+        },
+        {
+          "name": "KAS",
+          "type": "STRING"
+        }
+      ]
+    },
+    {
+      "name": "MAU",
+      "type": "SEGMENT",
+      "attributeDefinitions": [
+        {
+          "name": "MAU",
+          "type": "STRING"
+        }
+      ]
+    },
+    {
+      "name": "MAS",
+      "type": "SEGMENT",
+      "attributeDefinitions": [
+        {
+          "name": "MAS",
+          "type": "STRING"
+        }
+      ]
+    },
+    {
+      "name": "TRN",
+      "type": "SEGMENT",
+      "attributeDefinitions": [
+        {
+          "name": "TRN",
+          "type": "STRING"
+        }
+      ]
+    }
+  ],
+  "linkDefinitions": [
+    {
+      "type": "ONE_TO_MANY",
+      "superlevelName": "bundle",
+      "sublevelName": "ORT"
+    },
+    {
+      "type": "ONE_TO_MANY",
+      "superlevelName": "ORT",
+      "sublevelName": "MAU"
+    },
+    {
+      "type": "ONE_TO_MANY",
+      "superlevelName": "ORT",
+      "sublevelName": "MAS"
+    },
+    {
+      "type": "ONE_TO_MANY",
+      "superlevelName": "ORT",
+      "sublevelName": "TRN"
+    },
+    {
+      "type": "ONE_TO_MANY",
+      "superlevelName": "MAS",
+      "sublevelName": "MAU"
+    }
+  ],
+  "EMUwebAppConfig": {
+    "perspectives": [
+      {
+        "name": "default",
+        "signalCanvases": {
+          "order": [
+            "OSCI",
+            "SPEC"
+          ],
+          "assign": [
+            {
+              "signalCanvasName": "SPEC",
+              "ssffTrackName": "FORMANTS"
+            }
+          ],
+          "contourLims": []
+        },
+        "levelCanvases": {
+          "order": [
+            "MAU",
+            "MAS",
+            "TRN"
+          ]
+        },
+        "twoDimCanvases": {
+          "order": []
+        }
+      }
+    ],
+    "restrictions": {
+      "showPerspectivesSidebar": true,
+      "playback": true,
+      "correctionTool": true,
+      "editItemSize": true,
+      "useLargeTextInputField": false
+    },
+    "activeButtons": {
+      "saveBundle": true,
+      "showHierarchy": true
+    }
+  }
+}
