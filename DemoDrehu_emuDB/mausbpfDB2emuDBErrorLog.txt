@@ -1,9 +1,0 @@
-# mausbpfDB2emuDB error/warning log
-#
-# This file contains errors, warnings or a list of skipped files that were reported
-# during the conversion of the BAS WebService results into an EMU-SDMS database.
-# If there are no lines except ones starting with '#', then no error occurred.
-#
-# Call: /usr/local/bin/mausbpfDB2emuRDB force=1 validate=1 emuRDBname=DemoDrehu OUTZIP=/var/lib/tomcat8/webapps/BASWebServices##3.12///data/2023.01.30_16.06.33_4A9403A3639B4705039CAE65FD7E9B49/results-2023-01-30_16-06-33.zip doFormantAnalysis=true sounds="a,o,e,@" gender=female midpoint=true computeERatio=false outlierMetric=euclid outlierThreshold=250 /var/lib/tomcat8/webapps/BASWebServices##3.12//data//2023.01.30_16.06.33_4A9403A3639B4705039CAE65FD7E9B49
-#
-WARNING: FormantAnalysis : One of the phonemes you queried does not exist in the database: @

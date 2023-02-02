@@ -1,0 +1,147 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 61.83909297052154 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "text" 
+        xmin = 0 
+        xmax = 61.83909297052154 
+        intervals: size = 33 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.2055452913400666 
+            text = "" 
+        intervals [2]:
+            xmin = 1.2055452913400666 
+            xmax = 3.9675549389556117 
+            text = "Eni a qaja nyiëën me nyiëën nge nyiëën hmaca" 
+        intervals [3]:
+            xmin = 3.9675549389556117 
+            xmax = 4.711172921005951 
+            text = "" 
+        intervals [4]:
+            xmin = 4.711172921005951 
+            xmax = 7.781252875470923 
+            text = "Eni a qaja ööhöö me ööhöö nge ööhöö hmaca" 
+        intervals [5]:
+            xmin = 7.781252875470923 
+            xmax = 8.354901033052613 
+            text = "" 
+        intervals [6]:
+            xmin = 8.354901033052613 
+            xmax = 11.706105873870856 
+            text = "Eni a qaja eötr me eötr nge eötr hmaca" 
+        intervals [7]:
+            xmin = 11.706105873870856 
+            xmax = 12.152276661289818 
+            text = "" 
+        intervals [8]:
+            xmin = 12.152276661289818 
+            xmax = 15.232979717277892 
+            text = "Eni a qaja axöö me axöö nge axöö hmaca" 
+        intervals [9]:
+            xmin = 15.232979717277892 
+            xmax = 15.827874100503175 
+            text = "" 
+        intervals [10]:
+            xmin = 15.827874100503175 
+            xmax = 18.84709722779683 
+            text = "Eni a qaja hoho me hoho nge hoho hmaca" 
+        intervals [11]:
+            xmin = 18.84709722779683 
+            xmax = 19.558845864869937 
+            text = "" 
+        intervals [12]:
+            xmin = 19.558845864869937 
+            xmax = 23.360219355348466 
+            text = "Eni a qaja eöötr me eöötr nge eöötr hmaca" 
+        intervals [13]:
+            xmin = 23.360219355348466 
+            xmax = 24.082591106407737 
+            text = "" 
+        intervals [14]:
+            xmin = 24.082591106407737 
+            xmax = 27.09074689588331 
+            text = "Eni a qaja öhö me öhö nge öhö hmaca" 
+        intervals [15]:
+            xmin = 27.09074689588331 
+            xmax = 27.728133733318565 
+            text = "" 
+        intervals [16]:
+            xmin = 27.728133733318565 
+            xmax = 30.497694760708164 
+            text = "Eni a qaja öö me öö nge öö hmaca" 
+        intervals [17]:
+            xmin = 30.497694760708164 
+            xmax = 31.113835366875175 
+            text = "" 
+        intervals [18]:
+            xmin = 31.113835366875175 
+            xmax = 34.627014361211366 
+            text = "Eni a qaja keejë me keejë nge keejë hmaca" 
+        intervals [19]:
+            xmin = 34.627014361211366 
+            xmax = 34.99882334566765 
+            text = "" 
+        intervals [20]:
+            xmin = 34.99882334566765 
+            xmax = 38.15388815662528 
+            text = "Eni a qaja axö me axö nge axö hmaca" 
+        intervals [21]:
+            xmin = 38.15388815662528 
+            xmax = 38.855013670171424 
+            text = "" 
+        intervals [22]:
+            xmin = 38.855013670171424 
+            xmax = 42.29560769918362 
+            text = "Eni a qaja kejë me kejë nge kejë hmaca" 
+        intervals [23]:
+            xmin = 42.29560769918362 
+            xmax = 42.82676339126403 
+            text = "" 
+        intervals [24]:
+            xmin = 42.82676339126403 
+            xmax = 45.86416104676207 
+            text = "Eni a qaja Kooko me Kooko nge Kooko hmaca" 
+        intervals [25]:
+            xmin = 45.86416104676207 
+            xmax = 46.46967853573374 
+            text = "" 
+        intervals [26]:
+            xmin = 46.46967853573374 
+            xmax = 49.284803703759906 
+            text = "Eni a qaja möö me möö nge möö hmaca" 
+        intervals [27]:
+            xmin = 49.284803703759906 
+            xmax = 50.09216035572213 
+            text = "" 
+        intervals [28]:
+            xmin = 50.09216035572213 
+            xmax = 52.79357837432218 
+            text = "Eni a qaja ö me ö nge ö hmaca" 
+        intervals [29]:
+            xmin = 52.79357837432218 
+            xmax = 53.2078798141449 
+            text = "" 
+        intervals [30]:
+            xmin = 53.2078798141449 
+            xmax = 56.83319349167736 
+            text = "Eni a qaja Kokoo me Kokoo nge Kokoo hmaca" 
+        intervals [31]:
+            xmin = 56.83319349167736 
+            xmax = 57.44933409449064 
+            text = "" 
+        intervals [32]:
+            xmin = 57.44933409449064 
+            xmax = 60.827484296122044 
+            text = "Eni a qaja gööime me gööime nge gööime hmaca" 
+        intervals [33]:
+            xmin = 60.827484296122044 
+            xmax = 61.83909297052154 
+            text = "
+" 

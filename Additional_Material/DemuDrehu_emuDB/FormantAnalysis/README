@@ -1,0 +1,17 @@
+
+BAS WebService FormantAnalysis  -  Results 
+
+This directory contains the results of the formant analysis performed by the BAS WebService
+'FormantAnalysis' on Do 2. Feb 08:46:16 CET 2023. 
+
+If the following listed files are not present in this directory, an error occurred during the 
+analysis; please consult the file ../mausbpfDB2emuDBErrorLog.txt for error messages.
+
+SelectedParameters.txt   : list of parameters that were applied in this analysis
+Formant_analysis.R       : the R script used to perform the analysis; you can reproduce
+                           the analysis by running this script with the parameters listed
+                           in 'SelectedParameters.txt' and the EMU database stored in ../
+csv_output               : CSV style tables with the results of the analysis; 
+                           see file csv_output/README_CSV.asc for details
+plots                    : visualizations of results; see file 
+                           plots/README_PLOTS.asc for details
